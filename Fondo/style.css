@@ -1,0 +1,38 @@
+body{
+    /* background-color: blue; */
+    animation-name: cambiarFondo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes cambiarFondo{
+    /* to{background-color: red;} */
+    0%{background-color: red;}
+    50%{background-color: green;}
+    100%{background-color: violet;}
+}
+h1{
+    font-size: 14px;
+    animation-name: cambioFuente;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambioFuente {
+    to{font-size: 100px;}
+    
+}
+
+img{
+    width: 100px;
+    animation-name: cambioImagen;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes cambioImagen {
+    to{width: 500px;}
+    
+}
