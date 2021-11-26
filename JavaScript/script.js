@@ -14,8 +14,8 @@
 
 
 
-// function mostrarMensaje(parametro){
-//     parametro.preventDefault();
+// function mostrarMensaje(){
+
 //     var mensaje = document.querySelector("#text").value;
 //     var resultado = parseInt(mensaje)*mensaje
 //     mensaje = mensaje + "X" + mensaje + "=" + resultado
