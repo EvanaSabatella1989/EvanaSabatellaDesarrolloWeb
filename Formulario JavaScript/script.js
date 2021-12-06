@@ -1,10 +1,12 @@
-function mostrarNombreCompleto(){
-    
+function mostrarNombreCompleto(event){
+    event.preventDefault();
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
-    var nombreCompleto = nombre + "," + apellido;
-    document.querySelector("h1").textContent = nombreCompleto;
+    var nombreCompleto = apellido + "," + nombre;
+    document.querySelector("h2").textContent = nombreCompleto;
 }
 
-var formulario = document.querySelector("#formulario");
-formulario.addEventListener("input",mostrarNombreCompleto);
+
+
+var formulario = document.getElementById("formulario");
+formulario.addEventListener("submit", mostrarNombreCompleto);
