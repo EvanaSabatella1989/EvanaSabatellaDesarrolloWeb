@@ -10,3 +10,4 @@ function mostrarNombreCompleto(event){
 
 var formulario = document.getElementById("formulario");
 formulario.addEventListener("submit", mostrarNombreCompleto);
+
